@@ -1,0 +1,1 @@
+This tool is built with Html, Css, Javascript.This projects helps user to calculate final amount to be paid after application of discount percentage.This project uses arithmatic operations, logical operators & Dom manipulation. The Ui is modern with smooth interactions and responsive designs.
