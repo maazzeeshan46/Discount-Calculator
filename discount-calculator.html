@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="/discount calculator/discount.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="container">
+        <h1>Discount Calculator</h1>
+        <p>
+          Enter Original Price and Discount percentage to Calculate payable
+          price.
+        </p>
+
+        <input
+          type="number"
+          required
+          placeholder="Enter Original Price (PKR)"
+          id="price"
+        />
+        <input
+          type="number"
+          required
+          placeholder="Enter discount %"
+          id="percentage"
+        />
+        <h2>Payable Price</h2>
+        <div id="result"></div>
+
+        <button id="checkBtn">Calculate</button>
+      </div>
+    </div>
+  </body>
+  <script src="/discount calculator/script.js"></script>
+</html>
